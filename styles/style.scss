@@ -1,0 +1,162 @@
+//@import "~tailwindcss/base";
+@import "utils/reset";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+@import "utils/branding";
+
+// body {
+// 	margin: 0;
+// }
+
+// Contact Us Page Starts
+.pdp-samsung {
+	font-family: $font;
+}
+
+h2.section-heading {
+	font-family: "Samsung Sharp Sans";
+}
+
+//subsection-heading
+h4.subsection-heading {
+	@apply font-normal text-branding;
+	text-transform: $titleStyle;
+}
+
+h4.cta-heading {
+	@apply font-normal normal-case m-0;
+}
+
+.link {
+	@apply ml-1 mr-1;
+	color: $color;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.small-desc {
+	width: 200px;
+	@apply text-base mx-auto m-0;
+}
+
+.info-line {
+	@apply m-0;
+}
+
+.gln-img {
+	max-width: 100%;
+	height: 60px;
+	margin: 0 auto;
+}
+
+h3.info-line {
+	font-weight: 700 !important;
+}
+
+// Contact Us Page Finishes
+
+//AASP page Starts
+.layers {
+	background-image: url("https://ams.iqmetrix.net/images/165ddfce-d279-4745-8b8d-bcd1c3057242");
+}
+@media screen and (min-width: 768px) {
+	.high-res,
+	.spontaneity {
+		min-height: 60vh;
+	}
+}
+
+//Get Closer Section
+.get-closer {
+	background-image: url("https://ams.iqmetrix.net/images/4d2e3b57-80a6-4413-9810-91e9b15b5efe");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	width: 100%;
+	min-height: 60vh;
+}
+
+@media screen and (min-width: 768px) {
+	.get-closer {
+		background-image: url("https://ams.iqmetrix.net/images/6b498c03-b633-4277-8107-063fe6ed471d");
+		background-position: 60%;
+		min-height: 60vh;
+		.wrapper {
+			min-height: 60vh;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.get-closer {
+		min-height: 70vh;
+		background-position-x: 60%;
+		background-position: top;
+		.wrapper {
+			min-height: 70vh;
+		}
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.get-closer {
+		background-position: 30%;
+	}
+}
+
+//All Day Battery
+.all-day-battery {
+	background-image: url("https://ams.iqmetrix.net/images/26d79175-54a3-4a3b-82e8-2c0360791ea1");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	min-height: 60vh;
+}
+
+@media screen and (min-width: 768px) {
+	.all-day-battery {
+		background-image: url("https://ams.iqmetrix.net/images/96ff88e2-b7e5-468b-88de-6402798b18ef");
+		background-position: top;
+		.wrapper {
+			min-height: 60vh;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.all-day-battery {
+		min-height: 60vh;
+	}
+}
+
+//Life moves fast
+.life-move-fast {
+	background-image: url("https://ams.iqmetrix.net/images/57616587-e442-4a37-b8b0-1bb867735d48");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 60vh;
+	.wrapper {
+		min-height: 60vh;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.life-move-fast {
+		background-image: url("https://ams.iqmetrix.net/images/97c6ba70-961a-4ce6-bff8-60ce9fa3ef03");
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.connectivity {
+		min-height: 60vh;
+		.wrapper {
+			min-height: 60vh;
+		}
+	}
+}
+
+.find-right-galaxy {
+	font-family: "Samsung Sharp Sans";
+}

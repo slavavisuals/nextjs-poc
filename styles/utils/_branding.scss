@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Samsung Sharp Sans";
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.eot");
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.woff2")
+			format("woff2"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.woff")
+			format("woff"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.ttf")
+			format("truetype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold")
+			format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SamsungOne 600C";
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.eot");
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.woff2")
+			format("woff2"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.woff")
+			format("woff"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.ttf")
+			format("truetype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-600C.svg#SamsungOne-600C")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SamsungOne 500C";
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.eot");
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.woff2")
+			format("woff2"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.woff")
+			format("woff"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.ttf")
+			format("truetype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-500C.svg#SamsungOne-500C")
+			format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SamsungOne 800C";
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.eot");
+	src: url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.woff2")
+			format("woff2"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.woff")
+			format("woff"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.ttf")
+			format("truetype"),
+		url("https://marketing-web.glentel.com/assets/samsung/fonts/SamsungOne-800C.svg#SamsungOne-800C")
+			format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+
+$color: #d1218a;
+
+$sectionHeading: capitalize;
+$titleStyle: capitalize;
+$font: "SamsungOne 500C", sans-serif;
